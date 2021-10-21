@@ -32,7 +32,7 @@ function callAPI($value)
 
     // Definierar api-nyckeln och kommer att användas vid förfrågan till både servern och proxyn. 
     curl_setopt($curl, CURLOPT_HTTPHEADER, array(
-        'x-api-key: 77fec288493faacf0d624dea80a36fa2',
+        'x-api-key: <<token>>',
     ));
 
     // Exekverar hämtningen och tilldelar det till variabeln result.  
